@@ -8,25 +8,25 @@ A simple and interactive Dice Game built with JavaScript. This project simulates
 
 ## 📌 Project Overview
 
-This project is a beginner-friendly web application that demonstrates the use of:
+This project is a beginner-friendly web application that demonstrates:
 
 - JavaScript DOM manipulation
 - Random number generation
 - Basic HTML & CSS structure
-- Event handling (button clicks)
+- Event handling
 - Simple game logic
 
-The goal is to simulate a dice roll between players and display the winner based on random outcomes.
+The goal is to simulate a dice roll between two players and automatically display the winner.
 
 ---
 
 ## 🚀 Features
 
-- 🎲 Random dice roll on every refresh or click
-- 🧑‍🤝‍🧑 Two-player mode simulation
+- 🎲 Random dice roll on page load or refresh
+- 🧑‍🤝‍🧑 Two-player dice simulation
 - 🏆 Automatic winner detection
-- 📱 Responsive and lightweight design
-- ⚡ Fast deployment using Netlify
+- 📱 Responsive design
+- ⚡ Fast and lightweight
 
 ---
 
@@ -39,4 +39,14 @@ The goal is to simulate a dice roll between players and display the winner based
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+```bash
+Dice-Game/
+│
+├── index.html        # Main HTML file
+├── style.css         # Styling for the game
+├── script.js         # Game logic (dice roll + winner calculation)
+├── images/           # Dice images or assets used in the project
+└── README.md         # Project documentation
+```
